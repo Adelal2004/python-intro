@@ -226,26 +226,6 @@ Nå kjører du cellene med `Shift + Enter`, akkurat som før.
 
 ---
 
-## For lærer
-
-### Hvorfor JupyterLab Desktop
-
-Appen bundler sitt eget Python-miljø med numpy, scipy, pandas, ipywidgets og matplotlib ferdig installert — nøyaktig det opplegget trenger. Det fjerner hele installasjonskjeden med Python, PATH-variabel, `pip install` og oppstart fra ledetekst, som erfaringsmessig er der en klasse mister mest tid i første time.
-
-Dobbeltklikk på en `.ipynb`-fil åpner den direkte i appen.
-
-**Anaconda er bevisst utelatt.** Dels fordi det ikke trengs, dels fordi Anacondas vilkår krever betalt lisens for organisasjoner med over 200 ansatte, der offentlige virksomheter regnes med. Unntaket for utdanningsinstitusjoner gjelder undervisningsbruk, men Anacondas akademiske ordning oppgir samtidig at grunn- og videregående skoler ikke er kvalifisert. Framgangsmåten over unngår hele spørsmålet.
-
-**Sentral utrulling:** på Windows kan IT installere appen med `winget install jupyterlab`.
-
-**Om nedlastingslenkene:** jupyter.org tilbyr ikke skrivebordsappen — den siden dekker `pip`- og `conda`-installasjon. JupyterLab Desktop distribueres offisielt fra Project Jupyters eget repo på GitHub, og lenkene i guiden over peker alltid på nyeste versjon.
-
-**Systemkrav:** Windows 10 eller 11, macOS 12 eller nyere.
-
-### Overgangen til VS Code
-
-Merk at JupyterLab Desktops Python-miljø er adskilt fra systemets Python. Når klassen går over til VS Code, må Python installeres separat — derfor er de stegene tatt med i guiden over.
-
 ### Om oppbyggingen
 
 Hver notebook følger samme struktur: læringsmål → teori → gjennomgåtte eksempler → øvingsoppgaver med tomme kodeceller → differensierte ekstraoppgaver → oppsummering.
