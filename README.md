@@ -78,25 +78,28 @@ Krever macOS 12 eller nyere.
 
 ---
 
-## Del 2: Laste ned filene
+## Del 2: Hent notebookene
 
-**Steg 1.** Trykk på den grønne **Code**-knappen øverst på denne siden.
+Notebookene henter du via GitHub, og du leverer inn svarene dine samme vei.
 
-**Steg 2.** Velg **Download ZIP**.
+👉 **Følg [GitHub-veiledningen](GitHub_veiledning.md).** Den tar deg gjennom alt fra bunnen: konto, fork, GitHub Desktop og innlevering. Du trenger ikke ha brukt GitHub før.
 
-> ⚠️ Ikke klikk deg inn på én enkelt `.ipynb`-fil for å laste ned den. Da får du bare en visning av notebooken, ikke en fil du kan kjøre. Du må laste ned hele mappa som ZIP.
+Kort oppsummert gjør du dette én gang:
 
-**Steg 3.** Finn ZIP-fila (som regel i Nedlastinger), høyreklikk og velg **«Pakk ut alle»** / **«Extract All»**.
+1. Lag en GitHub-konto
+2. Lag din egen kopi av lærerens repo (**fork**)
+3. Installer GitHub Desktop
+4. Hent kopien ned på maskinen din (**clone**)
 
-**Steg 4.** Legg den utpakkede mappa et sted du finner igjen.
+Etterpå er rutinen: jobb i JupyterLab → lagre → commit → push.
 
-> 💡 **Tips:** Legger du mappa i OneDrive-mappa di, blir arbeidet ditt automatisk sikkerhetskopiert. Da mister du ingenting om maskinen krasjer.
+> ⚠️ **Ikke bruk Download ZIP.** Laster du ned notebookene som ZIP, får du en mappe uten kobling til GitHub — og da blir arbeidet ditt aldri levert.
 
 ---
 
 ## Del 3: Åpne notebookene
 
-**Steg 1.** Åpne mappa du pakket ut.
+**Steg 1.** Åpne mappa du klonet ned i del 2.
 
 **Steg 2.** Dobbeltklikk på `Notebook_1_Datatyper_print_aritmetikk.ipynb`.
 
@@ -129,6 +132,10 @@ Eksperimenter gjerne med eksemplene. Å endre på kode som virker, og se hva som
 **Steg 1.** Lagre notebooken (`Ctrl + S`).
 
 **Steg 2.** Lukk programmet som et hvilket som helst annet program.
+
+**Steg 3.** Åpne GitHub Desktop, skriv en kort beskrivelse, og trykk **Commit** og deretter **Push origin**.
+
+> ⚠️ Uten push er arbeidet ditt ikke levert. Gjør dette til en vane på slutten av hver time — det tar under ett minutt.
 
 Neste gang dobbeltklikker du bare på notebook-fila igjen.
 
@@ -245,5 +252,6 @@ Notebook 11 oppretter tekst- og CSV-filer i arbeidsmappa som en del av undervisn
 ```
 Notebook_1 ... Notebook_11.ipynb   Undervisningsopplegget
 README.md                          Denne fila
+GitHub_veiledning.md               Slik bruker du GitHub og leverer inn
 .gitignore                         Utelater midlertidige filer fra repoet
 ```
