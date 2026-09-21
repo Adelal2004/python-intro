@@ -255,3 +255,4 @@ README.md                          Denne fila
 GitHub_veiledning.md               Slik bruker du GitHub og leverer inn
 .gitignore                         Utelater midlertidige filer fra repoet
 ```
+Min første commit på GitHub
